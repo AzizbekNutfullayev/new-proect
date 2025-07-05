@@ -194,7 +194,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="img_compania">
-                                <img src="/src/img/image.png" alt="" />
+                                <img src="https://news.fullerton.edu/app/uploads/2020/11/Online-Learning-800x500.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -424,27 +424,27 @@ export default function Home() {
                                 KOMPANIYALAR ONLAYN TA‘LIMNI YO‘LGA QO‘YADILAR?</h1>
                             <div className="training_img">
                                 <div className="img_box">
-                                    <img src="/src/img/image.png" alt="" />
+                                    <img src="https://news.fullerton.edu/app/uploads/2020/11/Online-Learning-800x500.jpg" alt="" />
                                     <h1>Yangi xodimlarni 2 karra tezroq kompaniyaga adaptatsiya qilish</h1>
                                 </div>
                                 <div className="img_box">
-                                    <img src="/src/img/image copy 2.png" alt="" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-6D_ITKpBPCM-Nlq_TeAhgpNVY0hzFvJlbw&s" alt="" />
                                     <h1>Yuqori malakali xodimlar bilimini butun jamoaga tatbiq qilish</h1>
                                 </div>
                                 <div className="img_box">
-                                    <img src="/src/img/image copy 3.png" alt="" />
+                                    <img src="https://st3.depositphotos.com/1071909/12584/i/450/depositphotos_125845328-stock-photo-costs-optimization-business-concept.jpg" alt="" />
                                     <h1>Xodimlarni rivojlantirishga ajratilgan sarmoyani 3 karra qisqartirish imkoni</h1>
                                 </div>
                                 <div className="img_box">
-                                    <img src="/src/img/image copy 4.png" alt="" />
+                                    <img src="https://kimberlineducation.com/wp-content/uploads/2021/05/media-students-and-teacher-in-classroom-JACCL95-1.jpg" alt="" />
                                     <h1>Turli viloyatlardagi xodimlarga qulay formatda bilim yetkazish</h1>
                                 </div>
                                 <div className="img_box">
-                                    <img src="/src/img/image copy 5.png" alt="" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjccXkEKnL5fM6bJh5yNgI4qYDWjjl0o7vHQ&s" alt="" />
                                     <h1>Xodimlar vaqtini tejash. Istalgan vaqt,istalgan joydan bilim olish imkoni</h1>
                                 </div>
                                 <div className="img_box">
-                                    <img src="/src/img/image copy 6.png" alt="" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3T5b0RJHZQ2m_zbbDSx-4OmyFVVLGg0WGspqQxtcQMo6LLcdVD-_gxTC0sCdA2wyATxA&usqp=CAU" alt="" />
                                     <h1>Tizimli ta’limni yo’lga qo’yish orqali xodimlar samaradorligini oshirish</h1>
                                 </div>
                             </div>
@@ -478,7 +478,7 @@ export default function Home() {
                                 </h2>
                             </div>
                             <div className="goal_img">
-                                <img src="/src/img/image copy 7.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnMBsPhxH9Xc7GIKkZECpqU4CQxR_UMwsYA&s" alt="" />
                             </div>
                         </div>
                     </div>
@@ -518,7 +518,7 @@ export default function Home() {
                         </div>
                         <div className="expert">
                             <div className="expert_img">
-                                <img src="/src/img/image copy 8.png" alt="" />
+                                <img src="https://media.istockphoto.com/id/1830042746/photo/document-management-system-dms-with-arrange-folder-and-files-icons-man-setup-storage-backup.jpg?s=612x612&w=0&k=20&c=t8oAAO16j6fMhleAYJEXm5pSXFIDZrEG6sYJkv_Sdos=" alt="" />
                                 <h1>
                                     Metodolog
                                 </h1>
@@ -529,7 +529,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 9.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7m2t6P5RH39HDC22By-l2gJc0z3oYr_SLLA&s" alt="" />
                                 <h1>
                                     LMS Menejer
                                 </h1>
@@ -541,7 +541,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 10.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UwRFNhvr3Rd0IGAWmvD7SU5ndB6IGgV-5w&s" alt="" />
                                 <h1>
                                     Video Operator
                                 </h1>
@@ -550,7 +550,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 11.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvY4igwYwYdBnrPSV7U-MxydUgIjxIwI0hkQ&s" alt="" />
                                 <h1>
                                     Montaj Mutaxasisi
                                 </h1>
@@ -560,7 +560,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 12.png" alt="" />
+                                <img src="https://i.work.ua/cdn-cgi/image/f=jpeg/article/232b.jpg?v=1713862809" alt="" />
                                 <h1>
                                     Kopirayter
                                 </h1>
@@ -571,7 +571,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 13.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr9xXq9l5f8-AISI_oUv9B9wSrawAUZ8eWBQ&s" alt="" />
                                 <h1>
                                     Senarist
                                 </h1>
@@ -580,7 +580,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 14.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjU0hTBTXg2MLdlutMG6Gsls7XQUNXG0tOLw&s" alt="" />
                                 <h1>
                                     Diktor
                                 </h1>
@@ -589,7 +589,7 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="expert_img">
-                                <img src="/src/img/image copy 15.png" alt="" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJa0032eULOHN9KK-a59YhgRmhRvpENN4akg&s" alt="" />
                                 <h1>
                                     Dizayner
                                 </h1>
@@ -615,7 +615,7 @@ export default function Home() {
                                 KOMPANIYANGIZGA QANDAY QIYMAT KELTIRAMIZ?</h1>
                             <div className="why_box">
                                 <div className="box">
-                                    <img src="/src/img/image copy 16.png" alt="" className="box_img" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsdfO8b9AE9mNRtNeIlAS49MKmTxI2dTBxg&s" alt="" className="box_img" />
                                     <h1>TAJRIBALI JAMOA</h1>
                                     <p>
                                         Vaqtingiz va pulingizni
@@ -633,7 +633,7 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className="box">
-                                    <img src="/src/img/image copy 17.png" alt="" className="box_img" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnlYngt_4uJkqWxXQt2TrlOe5D0ximueCX3V2P-L_bdtc7th1FXdJTpZf_EVeDVDQ-gtE&usqp=CAU" alt="" className="box_img" />
                                     <h1>"ПОД КЛЮЧ" XIZMAT</h1>
                                     <p>
                                         Kompaniyada korporativ
@@ -651,7 +651,7 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className="box">
-                                    <img src="/src/img/image copy 18.png" alt="" className="box_img" />
+                                    <img src="https://mpost.io/wp-content/uploads/IMG_1357-1024x548.jpg" alt="" className="box_img" />
                                     <h1>TAYYOR KURSLAR BAZASI</h1>
                                     <p>
                                         Kutubxonamizda xodimlar
@@ -664,7 +664,7 @@ export default function Home() {
 
                                 </div>
                                 <div className="box">
-                                    <img src="/src/img/image copy 19.png" alt="" className="box_img" />
+                                    <img src="https://img.freepik.com/free-photo/people-working-call-center_23-2149288188.jpg" alt="" className="box_img" />
                                     <h1>QO‘LLAB TURISH XIZMATI </h1>
                                     <p>
                                         latformani
