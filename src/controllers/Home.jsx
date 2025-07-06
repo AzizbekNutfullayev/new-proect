@@ -30,6 +30,34 @@ const mentorData = [
 ];
 
 
+const trainingData = [
+    {
+        img: "https://news.fullerton.edu/app/uploads/2020/11/Online-Learning-800x500.jpg",
+        text: "Yangi xodimlarni 2 karra tezroq kompaniyaga adaptatsiya qilish"
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-6D_ITKpBPCM-Nlq_TeAhgpNVY0hzFvJlbw&s",
+        text: "Yuqori malakali xodimlar bilimini butun jamoaga tatbiq qilish"
+    },
+    {
+        img: "https://st3.depositphotos.com/1071909/12584/i/450/depositphotos_125845328-stock-photo-costs-optimization-business-concept.jpg",
+        text: "Xodimlarni rivojlantirishga ajratilgan sarmoyani 3 karra qisqartirish imkoni"
+    },
+    {
+        img: "https://kimberlineducation.com/wp-content/uploads/2021/05/media-students-and-teacher-in-classroom-JACCL95-1.jpg",
+        text: "Turli viloyatlardagi xodimlarga qulay formatda bilim yetkazish"
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjccXkEKnL5fM6bJh5yNgI4qYDWjjl0o7vHQ&s",
+        text: "Xodimlar vaqtini tejash. Istalgan vaqt, istalgan joydan bilim olish imkoni"
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3T5b0RJHZQ2m_zbbDSx-4OmyFVVLGg0WGspqQxtcQMo6LLcdVD-_gxTC0sCdA2wyATxA&usqp=CAU",
+        text: "Tizimli ta’limni yo’lga qo’yish orqali xodimlar samaradorligini oshirish"
+    }
+];
+
+
 export default function Home() {
     const [toggleMenu, setToggleMenu] = useState(false);
     const [showPopup, setShowPopup] = useState(false);
@@ -61,6 +89,10 @@ export default function Home() {
         setlogim(false)
     }
 
+    const handleLinkClick = () => {
+        setToggleMenu(false); // menyuni yopish
+    };
+
     return (
         <>
             <div className='father_container'>
@@ -68,7 +100,7 @@ export default function Home() {
                     <div className="header_container">
                         <div className="header">
                             <div className="logo">
-                                <img src="src/img/image copy.png" alt="" />
+                                <img src="https://educorp.uz/uploads/pages/1745333108rasm_bir.png" alt="" />
                             </div>
                             <div className="links">
                                 <a href="#info-section">Home</a>
@@ -96,16 +128,17 @@ export default function Home() {
                             <div className="hamburger_menu">
                                 <span className="close_btn" onClick={handleChange}>×</span>
                                 <div className="links">
-                                    <a href="#info-section">Home</a>
-                                    <a href="#cours">Courses</a>
-                                    <a href="#training">Training</a>
-                                    <a href="#goal">Goal</a>
-                                    <a href="#mentor">Mentor</a>
-                                    <a href="#expert">Expert</a>
-                                    <a href="#why">Why</a>
-                                    <a href="#profit">Profit</a>
-                                    <a href="#">Coll</a>
+                                    <a href="#info-section" onClick={handleLinkClick}>Home</a>
+                                    <a href="#cours" onClick={handleLinkClick}>Courses</a>
+                                    <a href="#training" onClick={handleLinkClick}>Training</a>
+                                    <a href="#goal" onClick={handleLinkClick}>Goal</a>
+                                    <a href="#mentor" onClick={handleLinkClick}>Mentor</a>
+                                    <a href="#expert" onClick={handleLinkClick}>Expert</a>
+                                    <a href="#why" onClick={handleLinkClick}>Why</a>
+                                    <a href="#profit" onClick={handleLinkClick}>Profit</a>
+                                    <a href="#" onClick={handleLinkClick}>Coll</a>
                                 </div>
+
                                 <div className="sign_in">
                                     <button onClick={handlePopup}>Sign In</button>
                                     <button onClick={hadlelogin} >Login</button>
@@ -179,15 +212,15 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="chek_info">
-                                    <FiCheckCircle size={30} color="#00cfff" />
+                                    <FiCheckCircle className='chek_info_logo' size={30} color="#00cfff" />
                                     <h4>
                                         Flexible
                                     </h4>
-                                    <FiCheckCircle size={30} color="#00cfff" />
+                                    <FiCheckCircle className='chek_info_logo' size={30} color="#00cfff" />
                                     <h4>
                                         Learning path
                                     </h4>
-                                    <FiCheckCircle size={30} color="#00cfff" />
+                                    <FiCheckCircle className='chek_info_logo' size={30} color="#00cfff" />
                                     <h4>
                                         Community
                                     </h4>
@@ -419,43 +452,27 @@ export default function Home() {
                 <section id='training'>
                     <div className="training_container">
                         <div className="training">
-                            <h1 className='traning_info'>
-                                NIMA UCHUN KOMPANIYALAR
-                                KOMPANIYALAR ONLAYN TA‘LIMNI YO‘LGA QO‘YADILAR?</h1>
+                            <h1 className='training_info'>
+                                NIMA UCHUN KOMPANIYALAR<br />
+                                ONLAYN TA‘LIMNI YO‘LGA QO‘YADILAR?
+                            </h1>
                             <div className="training_img">
-                                <div className="img_box">
-                                    <img src="https://news.fullerton.edu/app/uploads/2020/11/Online-Learning-800x500.jpg" alt="" />
-                                    <h1>Yangi xodimlarni 2 karra tezroq kompaniyaga adaptatsiya qilish</h1>
-                                </div>
-                                <div className="img_box">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-6D_ITKpBPCM-Nlq_TeAhgpNVY0hzFvJlbw&s" alt="" />
-                                    <h1>Yuqori malakali xodimlar bilimini butun jamoaga tatbiq qilish</h1>
-                                </div>
-                                <div className="img_box">
-                                    <img src="https://st3.depositphotos.com/1071909/12584/i/450/depositphotos_125845328-stock-photo-costs-optimization-business-concept.jpg" alt="" />
-                                    <h1>Xodimlarni rivojlantirishga ajratilgan sarmoyani 3 karra qisqartirish imkoni</h1>
-                                </div>
-                                <div className="img_box">
-                                    <img src="https://kimberlineducation.com/wp-content/uploads/2021/05/media-students-and-teacher-in-classroom-JACCL95-1.jpg" alt="" />
-                                    <h1>Turli viloyatlardagi xodimlarga qulay formatda bilim yetkazish</h1>
-                                </div>
-                                <div className="img_box">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjccXkEKnL5fM6bJh5yNgI4qYDWjjl0o7vHQ&s" alt="" />
-                                    <h1>Xodimlar vaqtini tejash. Istalgan vaqt,istalgan joydan bilim olish imkoni</h1>
-                                </div>
-                                <div className="img_box">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3T5b0RJHZQ2m_zbbDSx-4OmyFVVLGg0WGspqQxtcQMo6LLcdVD-_gxTC0sCdA2wyATxA&usqp=CAU" alt="" />
-                                    <h1>Tizimli ta’limni yo’lga qo’yish orqali xodimlar samaradorligini oshirish</h1>
-                                </div>
+                                {trainingData.map((item, index) => (
+                                    <div className="img_box fade-in" style={{ animationDelay: `${index * 0.2}s` }} key={index}>
+                                        <img src={item.img} alt="" />
+                                        <h2>{item.text}</h2>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
                 </section>
 
+
                 <section id='goal'>
                     <div className="goal_container">
                         <div className="goal_logo">
-                            <img src="/src/img/image copy.png" alt="" />
+                            <img src="https://educorp.uz/uploads/pages/1745333108rasm_bir.png" alt="" />
                             <p>
                                 Jamoangizni rivojlantiring
                             </p>
@@ -605,7 +622,7 @@ export default function Home() {
                 <section id='why'>
                     <div className="why_container">
                         <div className="Why_logo">
-                            <img src="src/img/image copy.png" alt="" />
+                            <img src="https://educorp.uz/uploads/pages/1745333108rasm_bir.png" alt="" />
                         </div>
                         <div className="why">
                             <h1><span>
@@ -686,7 +703,7 @@ export default function Home() {
                     <div className="profit">
                         <div className="profit_box">
                             <div className="profint_img">
-                                <img src="src/img/image copy.png" alt="" />
+                                <img src="https://educorp.uz/uploads/pages/1745333108rasm_bir.png" alt="" />
                             </div>
                             <div className="profit_info">
                                 <h1>
@@ -707,7 +724,7 @@ export default function Home() {
 
                 <footer className="footer_container">
                     <div className="footer_logo">
-                        <img src="src/img/image copy.png" alt="Educorp Logo" />
+                        <img src="https://educorp.uz/uploads/pages/1745333108rasm_bir.png" alt="Educorp Logo" />
                         <p className="footer_slogan">Jamoangizni rivojlantiring!</p>
                     </div>
 
@@ -729,3 +746,5 @@ export default function Home() {
         </>
     )
 }
+
+
