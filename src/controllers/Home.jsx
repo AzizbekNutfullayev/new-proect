@@ -201,7 +201,7 @@ export default function Home() {
                                         Smartfon orqali
                                     </span>
                                     adaptasiya, malaka oshirish,bilimni baholash, rag‘batlantirish                                </p>
-                                <div className="~">
+                                <div className="search_container">
                                     <input
                                         type="text"
                                         className="search_input"
