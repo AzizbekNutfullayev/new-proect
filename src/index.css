@@ -272,6 +272,7 @@ body {
   padding: 40px 20px;
   transform: translateY(20px);
   animation: fadeInUp 0.8s ease-out forwards;
+
 }
 
 .access {
@@ -279,13 +280,15 @@ body {
   justify-content: space-between;
   width: 100%;
   display: flex;
+
 }
 
 .info_compania {
   text-align: left;
   padding: 150px 50px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
+
 }
 
 .info_compania h1 {
@@ -438,6 +441,54 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .info_compania h1 {
+    margin-top: 50px;
+    font-size: 26px;
+    padding: 0 0 30px 0;
+  }
+.access-container {
+  margin: auto;
+}
+  .info_compania p {
+    font-size: 16px;
+  }
+
+  .search_input {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .chek_info {
+    align-items: center;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .chek_info .chek_info_logo {
+    width: 20px;
+  }
+
+  .chek_info h4 {
+    margin: 10px 10px;
+    font-size: 10px;
+  }
+
+  .search_button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .search_container {
+    padding: 8px 8px;
+    margin: 10px 0 25px 0 ;
+  }
+
+  .img_compania img {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+  }
+}
 @media (max-width: 550px) {
   .info_compania h1 {
     margin-top: 50px;
@@ -555,6 +606,10 @@ body {
   font-size: 20px;
   margin-top: 20px;
 }
+.courses_link a:hover {
+  color: #e79632;
+  transition: width 0.7s ease;
+}
 .courses_link a {
   text-decoration: none;
 }
@@ -565,68 +620,72 @@ body {
   transition: width 0.3s ease;
 }
 
+.cours_card_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.cours_box {
+  width: 320px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.cours_box:hover {
+  transform: translateY(-10px);
+}
+
 .img-wrapper {
   position: relative;
-  display: inline-block;
-  height: 150px;
+  overflow: hidden;
 }
 
 .main-img {
-  width: 380px;
-  height: 300px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50%;
-  margin: auto;
-  border-radius: 40px 40px 150px 40px;
+  border-radius: 20px 20px 150px 10px;
 }
 
 .overlay_logo {
   position: absolute;
-  bottom: 5px;
-  right: 15px;
-  left: 280px;
-  top: 220px;
-  height: 90px;
-  border-radius: 50%;
-  border: 2px solid white;
+  bottom: 10px;
+  right: 20px;
   background-color: #1a21bc;
-  width: 100px;
-  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 80px;
+  height: 80px;
 }
 
 .overlay_logo h3 {
+  margin: 0;
+  font-size: 12px;
+  padding: 0;
+  line-height: 1.2;
   text-align: center;
-  padding: 25px;
-  color: white;
-}
-
-.cours_card_wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.cours_box {
-  width: 400px;
-  height: 100%;
-  text-align: center;
-  padding: 10px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  border: none;
-  margin-bottom: 50px;
-  border-radius: 20px;
+  padding:13px 0;
 }
 
 .course_title {
   text-align: left;
   font-weight: bold;
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  color: black;
-  margin: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px 0 20px;
+  color: #222;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .course_title .title {
@@ -634,205 +693,87 @@ body {
 }
 
 .cours_name p {
-  text-align: left;
-  margin: 20px;
-  color: #666565;
-  margin-top: 30px;
+  margin: 10px 20px;
+  color: #888;
+  font-size: 14px;
 }
 
 .course_reating {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 20px;
 }
 
 .reating {
   display: flex;
-  margin: 20px;
-  gap: 20px;
+  align-items: center;
+  gap: 10px;
 }
 
 .reating h3 {
-  font-size: 30px;
-  color: rgb(146, 41, 41);
-}
-.reyting_store h1 {
-  font-size: 20px;
-  border: none;
+  color: #c0392b;
+  font-size: 18px;
 }
 
 .reyting_score button {
   background: transparent;
   border: none;
-  font-size: 25px;
   color: #f2d70b;
-  margin-top: 5px;
+  font-size: 18px;
 }
+
 .reyting_score .score {
-  color: #333;
+  color: #bbb;
 }
 
 .price {
-  font-size: 24px;
-  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
 }
 
 .line_reyting {
-  flex: auto;
-  background-color: #a9a3a3;
   height: 1px;
-  width: 25 0px;
-  margin: 5px 0 0 10px;
+  background-color: #eee;
+  margin: 10px 20px;
 }
 
 .classes_info {
   display: flex;
   justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+  font-size: 14px;
+  color: #444;
 }
 
-.classes {
-  display: flex;
-  gap: 12px;
-  padding: 20px;
-}
-.icon_class {
-  font-size: 25px;
-  color: #5c5fa4;
-}
-
+.classes,
 .students {
   display: flex;
-  gap: 12px;
-  padding: 20px;
+  align-items: center;
+  gap: 8px;
 }
 
+.icon_class,
 .icon_students {
-  font-size: 25px;
+  font-size: 18px;
   color: #5c5fa4;
 }
 
-/* 768px dan kichik (mobil) ekranlar uchun */
-@media (max-width: 768px) {
-  .courses {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-  }
-
-  .courses_name {
-    font-size: 22px;
-    margin-left: 0;
-  }
-
-  .courses_link {
-    margin: 10px 0;
-    font-size: 16px;
-  }
-
+/* ======= 780px dan kichik ekranlar uchun ======= */
+@media screen and (max-width: 780px) {
   .cours_card_wrapper {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
   }
-
-  .cours_box {
-    width: 90%;
-    padding: 15px;
-    margin-bottom: 30px;
-  }
-
-  .img-wrapper {
-    height: auto;
-  }
-
-  .main-img {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-  }
-
-  .overlay_logo {
-    top: auto;
-    bottom: -40px;
-    left: 5px;
-    transform: translateX(-50%);
-    width: 70px;
-    height: 80px;
-  }
-
-  .overlay_logo h3 {
-    padding: 20px;
-    font-size: 14px;
-  }
-
-  .course_title {
-    font-size: 22px;
-    text-align: center;
-    margin: 10px;
-  }
-
-  .cours_name p {
-    text-align: center;
-    margin: 10px;
-    font-size: 14px;
-  }
-
-  .course_reating {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .reating {
-    margin: 10px 0;
-    gap: 10px;
-  }
-
-  .reating h3 {
-    font-size: 20px;
-  }
-
-  .reyting_score button {
-    font-size: 20px;
-  }
-
-  .price {
-    font-size: 20px;
-    margin-top: 10px;
-  }
-
-  .line_reyting {
-    width: 90%;
-    margin: 10px auto;
-  }
-
-  .classes_info {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .classes,
-  .students {
-    padding: 10px;
-    justify-content: center;
-  }
-
-  .icon_class,
-  .icon_students {
-    font-size: 20px;
-  }
-}
-
-/* 1024px dan kichik (planshet) ekranlar uchun */
-@media (max-width: 1024px) {
   .courses {
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin: 10px;
+    gap: 10px;
   }
 
   .courses_name {
+    margin-top: 70px;
     font-size: 26px;
     margin-left: 0;
   }
@@ -842,51 +783,126 @@ body {
     font-size: 18px;
     margin-top: 10px;
   }
-
-  .cours_card_wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
   .cours_box {
-    width: 85%;
-    margin: 20px auto;
-  }
-
-  .main-img {
-    width: 100%;
-    height: auto;
-  }
-
-  .overlay_logo {
-    left: 70%;
-    top: 220px;
-    width: 90px;
-    height: 90px;
-  }
-
-  .overlay_logo h3 {
-    font-size: 16px;
-    padding: 22px;
+    width: 90%;
+    margin-bottom: 30px;
   }
 
   .course_title {
-    font-size: 26px;
+    font-size: 18px;
   }
 
-  .reating h3 {
-    font-size: 24px;
+  .main-img {
+    height: 180px;
   }
 
-  .price {
+  .overlay_logo {
+    right: 15px;
+    bottom: -18px;
+    padding: 8px 14px;
+    font-size: 10px;
+  }
+  .cours_box {
+    width: 400px;
+    border-radius: 0;
+  }
+}
+
+/* ======= 480px dan kichik ekranlar uchun ======= */
+@media screen and (max-width: 480px) {
+  .course_title {
+    font-size: 16px;
+  }
+
+  .cours_box {
+    width: 300px;
+    border-radius: 0;
+  }
+  .courses_name {
     font-size: 22px;
+    padding: 30px;
+    margin-top: 50px;
+  }
+
+  .courses_link {
+    font-size: 16px;
+  }
+
+  .courses {
+    gap: 6px;
+  }
+  .cours_name p {
+    font-size: 13px;
+  }
+
+  .reating h3,
+  .price {
+    font-size: 16px;
   }
 
   .reyting_score button {
-    font-size: 22px;
+    font-size: 16px;
+  }
+
+  .icon_class,
+  .icon_students {
+    font-size: 16px;
+  }
+
+  .classes_info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
+
+/* ======= 450px dan kichik ekranlar uchun ======= */
+@media screen and (max-width: 450px) {
+  .cours_box {
+    width: 300px;
+    border-radius: 0;
+  }
+
+  .courses_name {
+    font-size: 20px;
+  }
+
+  .courses_link {
+    font-size: 15px;
+  }
+
+  .courses {
+    margin: 10px;
+  }
+  .main-img {
+    border-radius: 10px 10px 150px 10px;
+ 
+  }
+
+  .overlay_logo {
+    padding: 6px 10px;
+    font-size: 9px;
+    bottom: 8px;
+    right: 10px;
+  }
+
+  .cours_name p {
+    font-size: 12px;
+  }
+
+  .course_title {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .classes_info h3 {
+    font-size: 13px;
+  }
+}
+
 
 /* traning sections */
 .training_container {
@@ -1481,9 +1497,9 @@ body {
     width: 160px;
     height: 70px;
     text-align: center;
-    margin: 10px 50px ;
-display: flex;
-justify-content: center;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
   }
   .box {
     width: 300px;
@@ -1575,7 +1591,6 @@ justify-content: center;
     text-align: center;
     margin: auto;
   }
-  
 }
 
 /* footer section */

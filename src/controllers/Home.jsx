@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBook, FaBookOpen, FaGithub, FaGoogle, FaGraduationCap, FaInstagram, FaLinkedin, FaLinkedinIn, FaPhone, FaSearch, FaStar, FaTelegramPlane } from 'react-icons/fa';
+import { FaBook, FaBookOpen, FaGithub, FaGoogle, FaGraduationCap, FaInstagram, FaLinkedin, FaLinkedinIn, FaPhone, FaSearch, FaStar, FaStarHalfAlt, FaTelegramPlane } from 'react-icons/fa';
 import { FaBookAtlas, FaBookOpenReader, FaPerson } from 'react-icons/fa6';
 import { FiCheckCircle } from 'react-icons/fi';
 
@@ -201,7 +201,7 @@ export default function Home() {
                                         Smartfon orqali
                                     </span>
                                     adaptasiya, malaka oshirish,bilimni baholash, rag‘batlantirish                                </p>
-                                <div className="search_container">
+                                <div className="~">
                                     <input
                                         type="text"
                                         className="search_input"
@@ -265,147 +265,108 @@ export default function Home() {
                             </div>
                             <div className="cours_card_wrapper">
                                 <div className="cours_box">
-                                    <div className="img_box">
-                                        <div className="img-wrapper">
-                                            <img src="https://themewagon.github.io/E-learning//images/courses/coursethree.png" alt="Asosiy" class="main-img" />
-                                            <div className="overlay_logo">
-                                                <h3>Best Selller</h3>
-                                            </div>
+                                    <div className="img-wrapper">
+                                        <img src="https://themewagon.github.io/E-learning//images/courses/courseone.png" alt="course" className="main-img" />
+                                        <div className="overlay_logo">
+                                            <h3>BEST SELLER</h3>
                                         </div>
                                     </div>
+                                    <div className="cours_name">
+                                        <h1 className="course_title">
+                                            Full stack modern
+                                            <span className="title">javascript</span>
+                                        </h1>
+                                        <p>Colt stelle</p>
+                                    </div>
+                                    <div className="course_reating">
+                                        <div className="reating">
+                                            <h3>4.4</h3>
+                                            <div className="reyting_score">
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button className="score"><FaStarHalfAlt /></button>
+                                            </div>
+                                        </div>
+                                        <div className="price">
+                                            $20
+                                        </div>
+                                    </div>
+                                    <div className="line_reyting"></div>
+                                    <div className="classes_info">
+                                        <div className="classes">
+                                            <div className="icon_class"><FaBookOpen /></div>
+                                            <h3>12 classes</h3>
+                                        </div>
+                                        <div className="students">
+                                            <div className="icon_students"><FaGraduationCap /></div>
+                                            <h3>150 students</h3>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                {/* 2nd card */}
+                                <div className="cours_box">
+                                    <div className="img-wrapper">
+                                        <img src="https://themewagon.github.io/E-learning//images/courses/coursetwo.png" alt="course" className="main-img" />
+                                        <div className="overlay_logo">
+                                            <h3>BEST SELLER</h3>
+                                        </div>
+                                    </div>
+                                    <div className="cours_name">
+                                        <h1 className="course_title">
+                                            Design system with
+                                            <span className="title">React programme</span>
+                                        </h1>
+                                        <p>Colt stelle</p>
+                                    </div>
+                                    <div className="course_reating">
+                                        <div className="reating">
+                                            <h3>4.5</h3>
+                                            <div className="reyting_score">
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button><FaStar /></button>
+                                                <button className="score"><FaStarHalfAlt /></button>
+                                            </div>
+                                        </div>
+                                        <div className="price">
+                                            $20
+                                        </div>
+                                    </div>
+                                    <div className="line_reyting"></div>
+                                    <div className="classes_info">
+                                        <div className="classes">
+                                            <div className="icon_class"><FaBookOpen /></div>
+                                            <h3>12 classes</h3>
+                                        </div>
+                                        <div className="students">
+                                            <div className="icon_students"><FaGraduationCap /></div>
+                                            <h3>130 students</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* 3rd card */}
+                                <div className="cours_box">
+                                    <div className="img-wrapper">
+                                        <img src="https://themewagon.github.io/E-learning//images/courses/coursethree.png" alt="course" className="main-img" />
+                                        <div className="overlay_logo">
+                                            <h3>BEST SELLER</h3>
+                                        </div>
+                                    </div>
                                     <div className="cours_name">
                                         <h1 className="course_title">
                                             Design banner with
-                                            <span className='title'>
-                                                Figma
-                                            </span>
+                                            <span className="title">Figma</span>
                                         </h1>
                                         <p>Colt stelle</p>
                                     </div>
                                     <div className="course_reating">
                                         <div className="reating">
-                                            <h3>
-                                                4.2
-                                            </h3>
-                                            <div className="reyting_score">
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button className='score'><FaStar /></button>
-                                            </div>
-                                        </div>
-                                        <div className="price">
-                                            <h3>
-                                                20$
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div className="line_reyting">
-                                    </div>
-                                    <div className="classes_info">
-                                        <div className="classes">
-                                            <div className="icon_class">
-                                                <FaBookOpen />
-                                            </div>
-                                            <h3>
-                                                12
-                                                classes
-                                            </h3>
-                                        </div>
-                                        <div className="students">
-                                            <div className="icon_students">
-                                                <FaGraduationCap />
-                                            </div>
-                                            <h3>
-                                                150 students
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="cours_box">
-                                    <div className="img_box">
-                                        <div className="img-wrapper">
-                                            <img src="https://themewagon.github.io/E-learning//images/courses/coursetwo.png" alt="Asosiy" class="main-img" />
-                                            <div className="overlay_logo">
-                                                <h3>Best Selller</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="cours_name">
-                                        <h1 className="course_title">
-                                            We Launch Delia
-                                            <span className='title'>
-                                                Webflow this Week!
-                                            </span>
-                                        </h1>
-                                        <p>Colt stelle</p>
-                                    </div>
-                                    <div className="course_reating">
-                                        <div className="reating">
-                                            <h3>
-                                                5
-                                            </h3>
-                                            <div className="reyting_score">
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button><FaStar /></button>
-                                                <button     ><FaStar /></button>
-                                            </div>
-                                        </div>
-                                        <div className="price">
-                                            <h3>
-                                                20$
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <div className="line_reyting">
-                                    </div>
-                                    <div className="classes_info">
-                                        <div className="classes">
-                                            <div className="icon_class">
-                                                <FaBookOpen />
-                                            </div>
-                                            <h3>
-                                                12
-                                                classes
-                                            </h3>
-                                        </div>
-                                        <div className="students">
-                                            <div className="icon_students">
-                                                <FaGraduationCap />
-                                            </div>
-                                            <h3>
-                                                150 students
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="cours_box">
-                                    <div className="img_box">
-                                        <div className="img-wrapper">
-                                            <img src="https://themewagon.github.io/E-learning//images/courses/courseone.png" alt="Asosiy" class="main-img" />
-                                            <div className="overlay_logo">
-                                                <h3>Best Selller</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="cours_name">
-                                        <h1 className="course_title">
-                                            Full stack
-                                            <span className='title'>
-                                                modern javascrip
-                                            </span>
-                                        </h1>
-                                        <p>Colt stelle</p>
-                                    </div>
-                                    <div className="course_reating">
-                                        <div className="reating">
-                                            <h3>
-                                                5
-                                            </h3>
+                                            <h3>5</h3>
                                             <div className="reyting_score">
                                                 <button><FaStar /></button>
                                                 <button><FaStar /></button>
@@ -415,34 +376,23 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="price">
-                                            <h3>
-                                                20$
-                                            </h3>
+                                            $20
                                         </div>
                                     </div>
-                                    <div className="line_reyting">
-                                    </div>
+                                    <div className="line_reyting"></div>
                                     <div className="classes_info">
                                         <div className="classes">
-                                            <div className="icon_class">
-                                                <FaBookOpen />
-                                            </div>
-                                            <h3>
-                                                12
-                                                classes
-                                            </h3>
+                                            <div className="icon_class"><FaBookOpen /></div>
+                                            <h3>12 classes</h3>
                                         </div>
                                         <div className="students">
-                                            <div className="icon_students">
-                                                <FaGraduationCap />
-                                            </div>
-                                            <h3>
-                                                150 students
-                                            </h3>
+                                            <div className="icon_students"><FaGraduationCap /></div>
+                                            <h3>120 students</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
 
                         </div>
 
